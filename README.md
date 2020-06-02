@@ -1,6 +1,6 @@
 # BabyShark
 Basic C2 Server
-```bash
+
 
 
                                                   ████████████
@@ -37,4 +37,4 @@ Basic C2 Server
    
 
 
-```
+
