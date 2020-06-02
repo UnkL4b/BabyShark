@@ -1,6 +1,6 @@
 # BabyShark
 Basic C2 Server
-
+```html
 
 
                                                   ████████████
@@ -36,5 +36,5 @@ Basic C2 Server
                    ▄ ▄         ▄                    ▄         ▄   ▄         ▄
    
 
-
+```
 
