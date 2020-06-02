@@ -1,5 +1,3 @@
-# BabyShark
-Basic C2 Server
 ```html
 
 
@@ -38,3 +36,7 @@ Basic C2 Server
 
 ```
 
+# INTRO
+
+This is a basic C2 server written in Python and Flask.
+This code has based to [GTRS](https://github.com/mthbernardes/GTRS), which uses [Google Translator](https://translate.google.com) as a proxy for sending commands to the infected host.
