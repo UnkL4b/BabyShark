@@ -106,3 +106,16 @@ done
 
 ```
 ___
+
+
+# NEXT STEPS
+
+
+
+- SSH Reverse
+- DNS
+- DOH
+- HTTPS
+- HTTP3
+- ICMP
+- QUIC
