@@ -141,7 +141,7 @@ def create():
 @app.route('/done/<id>')
 def done(id):
     if request.environ.get('HTTP_X_FORWARDED_FOR') is None:
-        task = Task.query.filter_by(id=int(id)).first()
+        task = Command.query.filter_by(id=int(id)).first()
         task.done = not task.done
         db.session.commit()
         return redirect(url_for('home'))
