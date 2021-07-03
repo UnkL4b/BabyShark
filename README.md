@@ -58,9 +58,9 @@ function getsecondurl(){
 
 function getcommand(){
   if [[ "$result" ]];then  
-    command=$(curl --silent $second -H "$result" )
+    command=$(curl -L --silent $second -H "$result" )
   else
-    command=$(curl --silent $second -H "$user_agent" )
+    command=$(curl -L --silent $second -H "$user_agent" )
 
     command1=$(echo "$command" | xmllint --html --xpath '//span[@class="google-src-text"]/text()' - 2>/dev/null)
     command2=$(echo "$command" | xmllint --html --xpath '/html/body/main/div/div/div/div/ul/li/span/text()' - 2>/dev/null )

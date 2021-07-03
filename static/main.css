@@ -10,7 +10,7 @@
 
 .done {
     text-decoration: line-through;
-    color: #cfcfcf;
+    color: #000;
 }
 
 .list-group-item {
@@ -83,7 +83,7 @@ p {
 }
 
 span {
-  color: #fff;
+  color: #000;
   font-weight: bold;
 }
 
